@@ -10,7 +10,7 @@ public class Exercicio4_A6 {
 		System.out.println("Digite o valor de X que será usado na equação y = 8 / √x² -25");
 		x= in.nextDouble();
 		
-		if (x >= -5 && x <= 5) {
+		if (x >= -5 || x <= 5) {
 			System.err.println("Não foi possível realizar a equação com esse número");
 		}
 		else {
