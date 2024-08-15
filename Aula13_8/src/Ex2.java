@@ -20,8 +20,8 @@ public class Ex2 {
 		}
 		
 		if(qtd != 1) {
-			for (int i = 0; i < x.length; i++) {
-				if (x[i] % 2 != x[i + 1] % 2) {
+			for (int i = 0; i < x.length - 1; i++) {
+				if (x[i] % 2 == x[i + 1] % 2) {
 					status = false;
 					break;
 				}
